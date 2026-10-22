@@ -3,7 +3,7 @@ version: "3.8"
 services:
   nginx:
     build: ./nginx
-    image: nginx
+    image: nginx:webhook-test
     container_name: "nginx_cont"
     ports:
       - "80:80"
