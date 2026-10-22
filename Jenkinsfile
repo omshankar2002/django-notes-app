@@ -2,7 +2,16 @@
 pipeline {
     
     agent { label "vinod" }
+    
+    stage('hello') {
+        steps {
+            script{
+                hello()
+                }
+            }
+        }
 
+    
         stage('Code') {
             steps {
                 script{
