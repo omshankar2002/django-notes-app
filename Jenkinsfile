@@ -77,7 +77,7 @@ pipeline {
 
     post {
         success {
-            echo 'Pipeline completed successfully! by my edition'
+            echo 'Pipeline completed successfully!'
         }
 
         failure {
